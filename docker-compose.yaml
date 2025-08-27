@@ -30,7 +30,7 @@ services:
       - "5000:5000"
 
   frontend:
-    build: ./client
+    image: masudrana09/frontend:latest
     container_name: frontend-react
     ports:
       - "3000:80"
